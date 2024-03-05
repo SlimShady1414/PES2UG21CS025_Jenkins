@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Bui' {
           steps {
-            build 'PES2UG21CS025-1'
+            buid 'PES2UG21CS01'
             sh 'g++ main.cpp -o output'
           }
           }
